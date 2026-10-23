@@ -1,0 +1,1173 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "gta-v-ps5",
+  "game": {
+    "title": "Grand Theft Auto V",
+    "platform": "PS5",
+    "edition": "PS5 native version (Expanded & Enhanced, 2022)",
+    "region": null
+  },
+  "trophySet": {
+    "npServiceName": "trophy2",
+    "npCommunicationId": null,
+    "npTitleIds": ["PPSA01721_00", "PPSA03420_00", "PPSA04263_00"],
+    "expectedCounts": { "platinum": 1, "gold": 3, "silver": 15, "bronze": 59 },
+    "idsVerified": false,
+    "dataset": {
+      "source": "PSNProfiles trophy list for Grand Theft Auto V (PS5), list 15720",
+      "sourceUrl": "https://psnprofiles.com/trophies/15720-grand-theft-auto-v",
+      "retrievedAt": "2026-10-21",
+      "completeness": "complete",
+      "notes": "All 78 trophies of the PS5 (trophy2) list: Base Game (51, includes the Platinum), GTA Online: Heists (9), Rockstar Editor (10) and GTA Online: The Doomsday Heist (8). Only the Base Game group counts towards the Platinum. Names and descriptions match the PS5 list. PSN trophy IDs and group IDs are inferred from list order (0-77; default/001/002/003) and are corrected automatically on the first successful PSN sync. The PS5 npCommunicationId is not published by a source we could verify, so it is resolved from your own PSN trophy list (service trophy2, platform PS5) when you connect. The PS5 title IDs listed are candidates seen on PlayStation Store/retail listings and are not used to claim verification."
+    }
+  },
+  "groups": [
+    { "key": "default", "psnGroupId": "default", "name": "Base Game", "requiredForPlatinum": true },
+    { "key": "heists", "psnGroupId": "001", "name": "Grand Theft Auto Online: Heists", "requiredForPlatinum": false },
+    { "key": "rockstar-editor", "psnGroupId": "002", "name": "Rockstar Editor", "requiredForPlatinum": false },
+    { "key": "doomsday", "psnGroupId": "003", "name": "Grand Theft Auto Online: The Doomsday Heist", "requiredForPlatinum": false }
+  ],
+  "estimates": {
+    "source": "Platinum Hunter editorial estimate",
+    "date": "2026-10-21",
+    "methodology": "Difficulty (1-10) and time are editorial estimates, not official data. They are calibrated against the PowerPyx GTA V trophy guide & roadmap (overall 5/10, 50-60 h single-player, 100+ h online, one playthrough) and the per-trophy requirements described there, then sanity-checked against PSNProfiles earn rates. Story trophy times are computed from your story position at ~25 minutes per mission. Rank times use PowerPyx's published RP thresholds and ~15,000 RP/hour (derived from its 100+ hour estimate for Rank 100).",
+    "communityRateSource": "PSNProfiles earn rate among PSNProfiles-tracked players (not PSN-wide), retrieved 2026-10-21"
+  },
+  "story": {
+    "checkpoints": [
+      { "id": "prologue", "name": "Prologue", "index": 1 },
+      { "id": "franklin_and_lamar", "name": "Franklin and Lamar", "index": 2 },
+      { "id": "repossession", "name": "Repossession", "index": 3 },
+      { "id": "complications", "name": "Complications", "index": 4 },
+      { "id": "father_son", "name": "Father/Son", "index": 5 },
+      { "id": "daddys_little_girl", "name": "Daddy's Little Girl", "index": 7 },
+      { "id": "jewel_store_job", "name": "The Jewel Store Job", "index": 14 },
+      { "id": "mr_philips", "name": "Mr. Philips", "index": 15 },
+      { "id": "nervous_ron", "name": "Nervous Ron", "index": 16 },
+      { "id": "trevor_philips_industries", "name": "Trevor Philips Industries", "index": 17 },
+      { "id": "fame_or_shame", "name": "Fame or Shame", "index": 20 },
+      { "id": "merryweather_heist", "name": "The Merryweather Heist", "index": 27 },
+      { "id": "blitz_play", "name": "Blitz Play", "index": 36 },
+      { "id": "caida_libre", "name": "Caida Libre", "index": 40 },
+      { "id": "paleto_score", "name": "The Paleto Score", "index": 46 },
+      { "id": "bury_the_hatchet", "name": "Bury the Hatchet", "index": 51 },
+      { "id": "bureau_raid", "name": "The Bureau Raid", "index": 58 },
+      { "id": "lamar_down", "name": "Lamar Down", "index": 60 },
+      { "id": "big_score", "name": "The Big Score", "index": 67 },
+      { "id": "finale", "name": "Final mission (choose A, B or C)", "index": 69 }
+    ],
+    "minutesPerMission": 25,
+    "totalMissions": 69,
+    "orderNote": "Checkpoint order follows the GTA Wiki's main mission list. Several missions can be played in a different order, so positions are approximate.",
+    "endings": {
+      "question": "Which option did you pick in the final mission?",
+      "options": [
+        { "id": "A", "label": "Option A: Something Sensible (kill Trevor)", "removes": ["trevor"] },
+        { "id": "B", "label": "Option B: The Time's Come (kill Michael)", "removes": ["michael"] },
+        { "id": "C", "label": "Option C: The Third Way (Deathwish)", "removes": [] }
+      ]
+    }
+  },
+  "flags": [
+    { "id": "online_access", "question": "Can you play GTA Online on this account?", "help": "GTA Online on PS5 needs an active PlayStation Plus subscription. All online trophies depend on it." },
+    { "id": "coop_partner", "question": "Do you have other players to help (friends or a boosting group)?", "help": "Several online trophies need 2-4 real players. PSNProfiles lists boosting sessions on the game's page." },
+    { "id": "omega_unlocked", "question": "Has Franklin met Omega and unlocked the spaceship-part hunt?", "help": "Spaceship parts are handed out through Omega's Strangers and Freaks missions for Franklin." },
+    { "id": "sonar_dock_available", "question": "Can you buy the Sonar Collections dock on your save?", "help": "Waste Management needs the dock property (it provides the submarine used to collect nuclear waste)." },
+    { "id": "hobbies_unlocked", "question": "Are all six hobbies for Multi-Disciplined unlocked?", "help": "Shooting Range, Flight School, Offroad Races, Sea Races, Street Races (Hao, Franklin, 8PM-5AM) and Triathlons." },
+    { "id": "epsilon_unlocked", "question": "Has Michael started the Epsilon Program questline?", "help": "Kifflom! needs the full Epsilon questline. It begins through Strangers and Freaks for Michael." },
+    { "id": "crew_joined", "question": "Are you in a Rockstar Games Social Club Crew with another player?", "help": "Crew Cut needs you to finish a Job alongside a member of your Crew." }
+  ],
+  "counters": [
+    { "key": "gold_medals", "label": "Gold Medals earned", "max": 115 },
+    { "key": "completion_percent", "label": "Game completion", "max": 100, "unit": "%" },
+    { "key": "spaceship_parts", "label": "Spaceship parts", "max": 50 },
+    { "key": "letter_scraps", "label": "Letter scraps", "max": 50 },
+    { "key": "nuclear_waste", "label": "Nuclear waste", "max": 30 },
+    { "key": "stunt_jumps", "label": "Stunt jumps", "max": 50 },
+    { "key": "under_the_bridge", "label": "Under the Bridge", "max": 50 },
+    { "key": "knife_flights", "label": "Knife Flights", "max": 15 },
+    { "key": "online_rank", "label": "GTA Online rank", "max": 8000 },
+    { "key": "platinum_awards", "label": "GTA Online Platinum Awards", "max": 30 },
+    { "key": "stores_robbed", "label": "Online stores held up", "max": 20 }
+  ],
+  "rankModel": {
+    "counter": "online_rank",
+    "anchors": [
+      { "rank": 1, "rp": 0 },
+      { "rank": 25, "rp": 127100 },
+      { "rank": 50, "rp": 448000 },
+      { "rank": 100, "rp": 1583380 }
+    ],
+    "rpPerHour": 15000,
+    "source": "RP thresholds from the PowerPyx GTA V roadmap; RP/hour is an editorial assumption"
+  },
+  "phases": [
+    { "id": "story-opening", "name": "Story: opening chapters", "description": "Play the story up to The Jewel Store Job and pick up the cheap early trophies as they unlock." },
+    { "id": "missables", "name": "Missable checks", "description": "Trophies tied to Trevor, Michael or the three-character free roam. Earn them before the finale and keep a manual save." },
+    { "id": "story-completion", "name": "Story completion", "description": "Finish the remaining story. Choose Option C (The Third Way) in the final mission so no character is lost." },
+    { "id": "side-activities", "name": "Side activities", "description": "Hobbies, money and odd jobs. Many overlap with collectible hunting." },
+    { "id": "collectibles", "name": "Collectibles", "description": "Spaceship parts, letter scraps, nuclear waste, stunt jumps, Under the Bridge and Knife Flights, plus map exploration." },
+    { "id": "completion-100", "name": "100% completion", "description": "Career Criminal: everything in the in-game 100% checklist." },
+    { "id": "gold-medals", "name": "Gold Medals", "description": "Any 70 of the 115 Gold Medals from story missions and Strangers and Freaks. Replay missions from the pause menu." },
+    { "id": "gta-online", "name": "GTA Online", "description": "Online trophies, including the Rank 100 grind. Some need other players." },
+    { "id": "cleanup", "name": "Remaining cleanup", "description": "Anything still missing once the main phases are done." },
+    { "id": "optional-dlc", "name": "Optional: add-on trophy groups", "description": "Heists, Rockstar Editor and Doomsday Heist trophies. Not required for the Platinum." }
+  ],
+  "trophies": [
+    {
+      "psnTrophyId": 0, "groupKey": "default", "name": "Los Santos Legend", "grade": "platinum",
+      "description": "Congratulations! You're Vinewood's biggest star!", "communityEarnedRate": 0.1,
+      "guidance": {
+        "category": "completion", "gameMode": "single_player", "character": null,
+        "difficulty": 5, "minutes": 9000, "confidence": "medium",
+        "estimateBasis": "PowerPyx roadmap: 5/10 and 150+ hours (50-60 h single-player, 100+ h online)",
+        "onlineRequired": true, "multiplayer": "required", "phase": "cleanup",
+        "summary": "Awarded for every other Base Game trophy. Add-on groups (Heists, Rockstar Editor, Doomsday) are not needed.",
+        "steps": ["Earn all 50 other Base Game trophies.", "The PS5 list is separate from PS4: progress on the PS4 version does not count."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Los Santos Legend", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/1-los-santos-legend" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 1, "groupKey": "default", "name": "Welcome to Los Santos", "grade": "bronze",
+      "description": "You repo'd a car and raced it through the heart of a sun-soaked metropolis.", "communityEarnedRate": 42.6,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": "franklin",
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-opening", "storyCheckpoint": "franklin_and_lamar",
+        "summary": "Unlocks when you complete the story mission Franklin and Lamar.",
+        "steps": ["Finish the Prologue.", "Complete Franklin and Lamar (the first Los Santos mission)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Welcome to Los Santos", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/2-welcome-to-los-santos" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 2, "groupKey": "default", "name": "A Friendship Resurrected", "grade": "bronze",
+      "description": "With friends like this who needs enemies?", "communityEarnedRate": 17.5,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "fame_or_shame",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 6 }],
+        "summary": "Unlocks when you complete the story mission Fame or Shame.",
+        "steps": ["Continue the story past Trevor's introduction.", "Complete Fame or Shame."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: A Friendship Resurrected", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/3-a-friendship-resurrected" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 3, "groupKey": "default", "name": "A Fair Day's Pay", "grade": "bronze",
+      "description": "It's time for a little getaway.", "communityEarnedRate": 11.2,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "caida_libre",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 8 }],
+        "summary": "Unlocks when you complete the story mission Caida Libre.",
+        "steps": ["Progress the story past Blitz Play.", "Complete Caida Libre."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: A Fair Day's Pay", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/4-a-fair-days-pay" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 4, "groupKey": "default", "name": "The Moment of Truth", "grade": "bronze",
+      "description": "You have uncovered the truth about Brad.", "communityEarnedRate": 7.8,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "bury_the_hatchet",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 9 }],
+        "summary": "Unlocks when you complete the story mission Bury the Hatchet.",
+        "steps": ["Progress the story past The Paleto Score.", "Complete Bury the Hatchet."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: The Moment of Truth", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/5-the-moment-of-truth" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 5, "groupKey": "default", "name": "To Live or Die in Los Santos", "grade": "silver",
+      "description": "Completed the final mission.", "communityEarnedRate": 8.4,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 2, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "finale",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 11 }],
+        "missable": {
+          "risk": "conditional",
+          "note": "The trophy itself cannot be missed, but your choice here decides whether Trevor- and Michael-only trophies stay obtainable. PowerPyx recommends Option C (The Third Way).",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "Unlocks for finishing any of the three final missions. Choose Option C to keep every character.",
+        "steps": ["Make a manual save before the final choice.", "Before the finale, earn Three Man Army, Wanted: Alive or Alive and Altruist Acolyte.", "Choose Option C: The Third Way (Deathwish)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: To Live or Die in Los Santos", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/6-to-live-or-die-in-los-santos" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 6, "groupKey": "default", "name": "Diamond Hard", "grade": "bronze",
+      "description": "You cleaned out Vangelico to pay back Martin Madrazo.", "communityEarnedRate": 18.9,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-opening", "storyCheckpoint": "jewel_store_job",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 1 }],
+        "summary": "Unlocks when you complete the heist The Jewel Store Job.",
+        "steps": ["Complete the setup missions Lester gives you.", "Pick either approach and finish The Jewel Store Job."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Diamond Hard", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/7-diamond-hard" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 7, "groupKey": "default", "name": "Subversive", "grade": "bronze",
+      "description": "You stole an experimental super weapon from Merryweather... and gave it back.", "communityEarnedRate": 12.0,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 2, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "merryweather_heist",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 2 }],
+        "summary": "Unlocks when you complete The Merryweather Heist.",
+        "steps": ["Complete Scouting the Port and the setup for your chosen approach.", "Finish The Merryweather Heist."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Subversive", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/8-subversive" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 8, "groupKey": "default", "name": "Blitzed", "grade": "bronze",
+      "description": "You performed a classic blitz play.", "communityEarnedRate": 11.9,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "blitz_play",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 7 }],
+        "summary": "Unlocks when you complete the heist Blitz Play.",
+        "steps": ["Complete the Blitz Play setup missions (masks, boiler suits, trucks).", "Finish Blitz Play."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Blitzed", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/9-blitzed" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 9, "groupKey": "default", "name": "Small Town, Big Job", "grade": "bronze",
+      "description": "You made a big impression at the Paleto Bay Chicken Festival.", "communityEarnedRate": 10.7,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 2, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "paleto_score",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 3 }],
+        "summary": "Unlocks when you complete the heist The Paleto Score.",
+        "steps": ["Complete Paleto Score Setup and Military Hardware.", "Finish The Paleto Score."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Small Town, Big Job", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/10-small-town-big-job" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 10, "groupKey": "default", "name": "The Government Gimps", "grade": "bronze",
+      "description": "You recovered sensitive information from a highly defended federal building.", "communityEarnedRate": 9.1,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 1, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "bureau_raid",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 4 }],
+        "summary": "Unlocks when you complete the heist The Bureau Raid.",
+        "steps": ["Complete the Bureau Raid setups for your chosen approach.", "Finish The Bureau Raid."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: The Government Gimps", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/11-the-government-gimps" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 11, "groupKey": "default", "name": "The Big One!", "grade": "bronze",
+      "description": "This ain't no dream no more.", "communityEarnedRate": 8.2,
+      "guidance": {
+        "category": "story", "gameMode": "single_player", "character": null,
+        "difficulty": 2, "minutes": null, "confidence": "high", "estimateBasis": "Story mission; time computed from your story position",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-completion", "storyCheckpoint": "big_score",
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 10 }],
+        "summary": "Unlocks when you complete The Big Score.",
+        "steps": ["Before starting the last stretch of the story, earn Three Man Army.", "Complete Planning the Big Score and its setups.", "Finish The Big Score."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: The Big One!", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/12-the-big-one" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 12, "groupKey": "default", "name": "Solid Gold, Baby!", "grade": "gold",
+      "description": "Earn any 70 Gold Medals on Missions, Strangers and Freaks.", "communityEarnedRate": 0.2,
+      "guidance": {
+        "category": "gold_medals", "gameMode": "single_player", "character": "any",
+        "difficulty": 6, "minutes": 900, "confidence": "low",
+        "estimateBasis": "Editorial: replaying roughly 30-40 missions for missed objectives; scaled by medals still needed",
+        "onlineRequired": false, "multiplayer": "none", "phase": "gold-medals",
+        "counter": { "key": "gold_medals", "target": 70 },
+        "softPrereqs": [{ "type": "story", "checkpoint": "finale" }],
+        "summary": "Earn Gold Medals on any 70 of the 115 available (69 story missions and 46 Strangers and Freaks). You can skip the hardest 45.",
+        "steps": ["Medals earned during your first run count, so check objectives before each mission.", "After the story, replay missions from the pause menu to fix missed objectives.", "Track your total in the in-game stats and enter it in Progress."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Solid Gold, Baby!", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/13-solid-gold-baby" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 13, "groupKey": "default", "name": "Career Criminal", "grade": "gold",
+      "description": "Attain 100% Game Completion.", "communityEarnedRate": 0.2,
+      "guidance": {
+        "category": "completion", "gameMode": "single_player", "character": "any",
+        "difficulty": 6, "minutes": 1800, "confidence": "low",
+        "estimateBasis": "Editorial: remaining 100% checklist after story and collectibles; scaled by completion percentage",
+        "onlineRequired": false, "multiplayer": "none", "phase": "completion-100",
+        "counter": { "key": "completion_percent", "target": 100 },
+        "prereqs": [{ "type": "trophy", "psnTrophyId": 5 }],
+        "softPrereqs": [
+          { "type": "trophy", "psnTrophyId": 22 }, { "type": "trophy", "psnTrophyId": 32 }, { "type": "trophy", "psnTrophyId": 18 },
+          { "type": "trophy", "psnTrophyId": 19 }, { "type": "trophy", "psnTrophyId": 20 }, { "type": "trophy", "psnTrophyId": 17 }
+        ],
+        "related": [17, 18, 19, 20, 22, 32],
+        "summary": "Reach 100% on the in-game completion checklist: the story, all Strangers and Freaks, the collectibles, stunt jumps, Under the Bridge, Knife Flights and the hobby/activity requirements.",
+        "steps": ["Finish the story.", "Clear the collectible trophies (they make up a large part of 100%).", "Open the 100% checklist in the pause menu and work through what remains.", "Enter your completion percentage in Progress to keep the estimate accurate."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Career Criminal", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/14-career-criminal" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 14, "groupKey": "default", "name": "San Andreas Sightseer", "grade": "silver",
+      "description": "Explore all of Los Santos and Blaine County", "communityEarnedRate": 0.5,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "any",
+        "difficulty": 4, "minutes": 180, "confidence": "low",
+        "estimateBasis": "Editorial: flying systematic passes; the ocean is mostly revealed while hunting nuclear waste",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "softPrereqs": [{ "type": "trophy", "psnTrophyId": 20 }],
+        "related": [20],
+        "summary": "Reveal the whole map, land and sea. PowerPyx reports roughly 95% of the map must be uncovered.",
+        "steps": ["Do the nuclear waste hunt first: the submarine reveals most of the ocean.", "Use a fast aircraft (PowerPyx suggests a jet from Fort Zancudo) to sweep the land in passes.", "Check the pause-menu map for remaining dark patches, especially coastlines."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: San Andreas Sightseer", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/15-san-andreas-sightseer" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 15, "groupKey": "default", "name": "All's Fare in Love and War", "grade": "bronze",
+      "description": "Purchase Downtown Cab Co. and complete a private fare.", "communityEarnedRate": 2.8,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "franklin",
+        "difficulty": 2, "minutes": 30, "confidence": "medium",
+        "estimateBasis": "Editorial: one purchase plus one fare once the call arrives",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "story", "checkpoint": "nervous_ron" }, { "type": "characterAvailable", "character": "franklin" }],
+        "summary": "As Franklin, buy Downtown Cab Co. (about $200,000, available after Nervous Ron) and complete one private fare.",
+        "steps": ["Save up roughly $200,000 as Franklin.", "Buy Downtown Cab Co. from its property marker.", "Wait for the call about a private fare, then drive the VIP to the destination (any car works)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: All's Fare in Love and War", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/16-alls-fare-in-love-and-war" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 16, "groupKey": "default", "name": "TP Industries Arms Race", "grade": "bronze",
+      "description": "Purchase McKenzie Field Hangar and win the arms race.", "communityEarnedRate": 0.6,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "trevor",
+        "difficulty": 4, "minutes": 90, "confidence": "medium",
+        "estimateBasis": "Editorial: ten short trafficking runs",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "story", "checkpoint": "nervous_ron" }, { "type": "characterAvailable", "character": "trevor" }],
+        "missable": {
+          "risk": "conditional",
+          "note": "Trevor only. Lost if Trevor is killed (final mission Option A). Choosing Option C keeps it obtainable after the story.",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "As Trevor, buy McKenzie Field Hangar in Grapeseed (about $150,000, after Nervous Ron) and complete 10 weapons-trafficking missions: five by air and five by land.",
+        "steps": ["Buy McKenzie Field Hangar as Trevor.", "Talk to Oscar at the hangar to start trafficking runs.", "Complete five air drops (Cuban 800) and five ground runs (dune buggy)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: TP Industries Arms Race", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/17-tp-industries-arms-race" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 17, "groupKey": "default", "name": "Multi-Disciplined", "grade": "bronze",
+      "description": "Attain a gold medal in all applicable hobbies and pastimes.", "communityEarnedRate": 0.5,
+      "guidance": {
+        "category": "challenge", "gameMode": "single_player", "character": "any",
+        "difficulty": 5, "minutes": 300, "confidence": "low",
+        "estimateBasis": "Editorial: Flight School golds are the time sink; other hobbies need a single win",
+        "onlineRequired": false, "multiplayer": "none", "phase": "side-activities",
+        "prereqs": [{ "type": "flag", "flag": "hobbies_unlocked" }],
+        "summary": "Earn a gold medal in each of six hobbies: Shooting Range, Flight School, Offroad Race, Sea Race, Street Race and Triathlon. Races and triathlons need first place.",
+        "steps": ["Unlock Street Races through Hao (Franklin, between 8PM and 5AM).", "Win one Offroad Race, one Sea Race, one Street Race and one Triathlon.", "Get gold in a Shooting Range challenge.", "Get gold in a Flight School lesson."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Multi-Disciplined", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/18-multi-disciplined" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 18, "groupKey": "default", "name": "From Beyond the Stars", "grade": "bronze",
+      "description": "Collect and return all spaceship parts.", "communityEarnedRate": 0.5,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "franklin",
+        "difficulty": 3, "minutes": 240, "confidence": "medium",
+        "estimateBasis": "Editorial: 50 collectibles with a map; scaled by parts remaining",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "counter": { "key": "spaceship_parts", "target": 50 },
+        "prereqs": [{ "type": "flag", "flag": "omega_unlocked" }, { "type": "characterAvailable", "character": "franklin" }],
+        "related": [13],
+        "summary": "As Franklin, collect all 50 spaceship parts for Omega and return them.",
+        "steps": ["Unlock the hunt through Omega's Strangers and Freaks mission.", "Collect all 50 parts using a location map (many are easiest by helicopter).", "Return to Omega to finish the mission chain."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: From Beyond the Stars", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/19-from-beyond-the-stars" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 19, "groupKey": "default", "name": "A Mystery, Solved", "grade": "bronze",
+      "description": "Solve the mystery of Leonora Johnson.", "communityEarnedRate": 0.4,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "any",
+        "difficulty": 3, "minutes": 240, "confidence": "medium",
+        "estimateBasis": "Editorial: 50 collectibles plus a short follow-up mission; scaled by scraps remaining",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "counter": { "key": "letter_scraps", "target": 50 },
+        "prereqs": [{ "type": "story", "checkpoint": "repossession" }],
+        "related": [13],
+        "summary": "Find all 50 letter scraps (any character), then as Franklin complete the side mission that appears. The trophy unlocks after that mission, not on the last scrap.",
+        "steps": ["Collect all 50 letter scraps with a location map.", "Switch to Franklin and start the new question-mark side mission.", "Complete it to unlock the trophy."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: A Mystery, Solved", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/20-a-mystery-solved" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 20, "groupKey": "default", "name": "Waste Management", "grade": "bronze",
+      "description": "Purchase the old dock and collect all nuclear waste.", "communityEarnedRate": 0.5,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "any",
+        "difficulty": 3, "minutes": 120, "confidence": "medium",
+        "estimateBasis": "Editorial: 30 underwater pickups by submarine; scaled by pieces remaining",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "counter": { "key": "nuclear_waste", "target": 30 },
+        "prereqs": [{ "type": "flag", "flag": "sonar_dock_available" }],
+        "related": [14, 13],
+        "summary": "Buy the old dock (Sonar Collections), then collect all 30 barrels of nuclear waste from the sea floor using the submarine it provides.",
+        "steps": ["Buy the dock property.", "Start the nuclear waste collection from the dock.", "Collect all 30 barrels with a location map. This also reveals much of the ocean for San Andreas Sightseer."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Waste Management", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/21-waste-management" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 21, "groupKey": "default", "name": "Red Mist", "grade": "bronze",
+      "description": "Complete all Rampages.", "communityEarnedRate": 3.7,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "trevor",
+        "difficulty": 3, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: five short combat challenges",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "story", "checkpoint": "trevor_philips_industries" }, { "type": "characterAvailable", "character": "trevor" }],
+        "missable": {
+          "risk": "conditional",
+          "note": "Trevor only. Lost if Trevor is killed (final mission Option A). Option C keeps it obtainable.",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "As Trevor, complete all five Rampages. They unlock in sequence after Trevor Philips Industries.",
+        "steps": ["Start the first Rampage from the marker in the Grand Senora Desert.", "Each completed Rampage reveals the next one on the map.", "Finish all five."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Red Mist", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/22-red-mist" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 22, "groupKey": "default", "name": "Show Off", "grade": "bronze",
+      "description": "Complete all Stunt Jumps.", "communityEarnedRate": 1.1,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "any",
+        "difficulty": 4, "minutes": 240, "confidence": "medium",
+        "estimateBasis": "Editorial: 50 jumps, some needing several attempts; scaled by jumps remaining",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "counter": { "key": "stunt_jumps", "target": 50 },
+        "prereqs": [{ "type": "story", "checkpoint": "franklin_and_lamar" }],
+        "related": [13],
+        "summary": "Complete all 50 stunt jumps. A jump only counts when you land cleanly in the target zone.",
+        "steps": ["Use a fast, stable bike or car.", "Work through a location map region by region.", "Check the pause-menu stats for which jumps are done."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Show Off", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/23-show-off" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 23, "groupKey": "default", "name": "Kifflom!", "grade": "silver",
+      "description": "Complete your path to enlightenment... or not.", "communityEarnedRate": 0.6,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "michael",
+        "difficulty": 4, "minutes": 480, "confidence": "low",
+        "estimateBasis": "Editorial: long in-game waits (robes worn for 10 days) dominate; active play is shorter",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "flag", "flag": "epsilon_unlocked" }, { "type": "characterAvailable", "character": "michael" }],
+        "missable": {
+          "risk": "conditional",
+          "note": "Michael only. Lost if Michael is killed (final mission Option B). Option C keeps it obtainable. PowerPyx also reports that step 7 occasionally fails to advance, so keep a manual save.",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "As Michael, complete the whole Epsilon Program questline. It needs about $90,500 in donations and purchases, a robe worn for 10 days, and five Epsilon cars.",
+        "steps": ["Start the questline and make the donations on the Epsilon website.", "Buy and wear the Epsilon robes for 10 cumulative days.", "Find the five Epsilon cars.", "Finish the remaining Epsilon missions. Keep a manual save in case of the step 7 glitch."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Kifflom!", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/24-kifflom" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 24, "groupKey": "default", "name": "Three Man Army", "grade": "bronze",
+      "description": "Survive 3 minutes on at least a 3 star Wanted Level with all three characters together off mission.", "communityEarnedRate": 0.6,
+      "guidance": {
+        "category": "challenge", "gameMode": "single_player", "character": null,
+        "difficulty": 3, "minutes": 20, "confidence": "medium",
+        "estimateBasis": "Editorial: one attempt or two with a sturdy four-door car",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [
+          { "type": "story", "checkpoint": "mr_philips" },
+          { "type": "characterAvailable", "character": "michael" },
+          { "type": "characterAvailable", "character": "trevor" }
+        ],
+        "missable": {
+          "risk": "high",
+          "note": "Must be done while you can still gather all three characters off mission. PowerPyx advises doing it before the last five story missions; Platinum Hunter warns from The Bureau Raid onward.",
+          "closesAfter": "big_score",
+          "warnFrom": "bureau_raid",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "With Michael, Franklin and Trevor together outside a mission, survive three minutes at a three-star (or higher) wanted level.",
+        "steps": ["After Mr. Philips, call the other two characters and pick them up in a four-door car.", "Drive somewhere open (PowerPyx suggests the airport) and raise your wanted level to three stars.", "Survive for three minutes. Bulletproof tyres help.", "Do this before the last stretch of the story."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Three Man Army", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/25-three-man-army" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 25, "groupKey": "default", "name": "Out of Your Depth", "grade": "bronze",
+      "description": "You're gonna need a bigger boat...", "communityEarnedRate": 1.9,
+      "guidance": {
+        "category": "misc", "gameMode": "single_player", "character": "any",
+        "difficulty": 2, "minutes": 30, "confidence": "low",
+        "estimateBasis": "Editorial: shark spawns are random, so time varies",
+        "onlineRequired": false, "multiplayer": "none", "phase": "side-activities",
+        "prereqs": [{ "type": "story", "checkpoint": "franklin_and_lamar" }],
+        "summary": "Get killed by a shark. Swim or wait in deep ocean water until one attacks.",
+        "steps": ["Head well out to sea.", "Wait or swim in deep water until a shark spawns and kills you."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Out of Your Depth", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/26-out-of-your-depth" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 26, "groupKey": "default", "name": "Altruist Acolyte", "grade": "bronze",
+      "description": "Deliver an unsuspecting victim to the Altruist Cult.", "communityEarnedRate": 2.6,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "trevor",
+        "difficulty": 2, "minutes": 30, "confidence": "medium",
+        "estimateBasis": "Editorial: depends on a hitchhiker random event appearing",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "story", "checkpoint": "mr_philips" }, { "type": "characterAvailable", "character": "trevor" }],
+        "missable": {
+          "risk": "high",
+          "note": "Only a limited number of hitchhiker random events can be delivered. If you take every hitchhiker to their normal destination, the trophy becomes unobtainable on that save.",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "As Trevor, pick up a hitchhiker from a random event and drive them to the Altruist Cult camp (marked 'A', west of Mount Chiliad) instead of their destination.",
+        "steps": ["Play as Trevor in Blaine County until a hitchhiker random event appears.", "Pick them up and drive to the Altruist Cult camp.", "Never deliver hitchhikers to their own destination before you have this trophy."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Altruist Acolyte", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/27-altruist-acolyte" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 27, "groupKey": "default", "name": "A Lot of Cheddar", "grade": "bronze",
+      "description": "Spend a total of $200 million across all three characters.", "communityEarnedRate": 1.5,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "any",
+        "difficulty": 3, "minutes": 120, "confidence": "low",
+        "estimateBasis": "Editorial: easiest once the late-story heist payouts arrive",
+        "onlineRequired": false, "multiplayer": "none", "phase": "side-activities",
+        "softPrereqs": [{ "type": "story", "checkpoint": "big_score" }],
+        "summary": "Spend $200 million in total across Michael, Franklin and Trevor. Cash spending is tracked in the pause-menu stats.",
+        "steps": ["Wait until after The Big Score, when all three characters have large balances.", "Spend on properties, vehicles and upgrades. PowerPyx describes a buy-and-sell stock method; check that it still counts before relying on it.", "Watch the money-spent stat for each character."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: A Lot of Cheddar", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/28-a-lot-of-cheddar" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 28, "groupKey": "default", "name": "Trading Pure Alpha", "grade": "bronze",
+      "description": "Make a profit over your total investments in the stock market.", "communityEarnedRate": 5.7,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "any",
+        "difficulty": 1, "minutes": 15, "confidence": "medium",
+        "estimateBasis": "Editorial: one profitable trade",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-opening",
+        "prereqs": [{ "type": "story", "checkpoint": "franklin_and_lamar" }],
+        "summary": "Sell stock for an overall profit on the in-game stock market.",
+        "steps": ["Open the LCN or BAWSAQ site on any character's phone or computer.", "Buy a stock showing an upward trend and sell it once it shows a gain.", "Lester's assassination missions make this easy if you invest as he suggests."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Trading Pure Alpha", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/29-trading-pure-alpha" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 29, "groupKey": "default", "name": "Pimp My Sidearm", "grade": "bronze",
+      "description": "Fully mod a weapon.", "communityEarnedRate": 29.0,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "any",
+        "difficulty": 1, "minutes": 10, "confidence": "high",
+        "estimateBasis": "Editorial: a single Ammu-Nation visit",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-opening",
+        "prereqs": [{ "type": "story", "checkpoint": "complications" }],
+        "summary": "Buy every attachment for one weapon. The pistol is cheapest (about $3,400 per PowerPyx).",
+        "steps": ["Visit Ammu-Nation after Complications.", "Buy every available attachment for the pistol (extended clip, flashlight, suppressor and finishes)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Pimp My Sidearm", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/30-pimp-my-sidearm" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 30, "groupKey": "default", "name": "Wanted: Alive or Alive", "grade": "bronze",
+      "description": "Deliver a bail bond target alive.", "communityEarnedRate": 2.0,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "trevor",
+        "difficulty": 2, "minutes": 20, "confidence": "medium",
+        "estimateBasis": "Editorial: one bail bond job",
+        "onlineRequired": false, "multiplayer": "none", "phase": "missables",
+        "prereqs": [{ "type": "story", "checkpoint": "mr_philips" }, { "type": "characterAvailable", "character": "trevor" }],
+        "missable": {
+          "risk": "high",
+          "note": "There are only four bail targets. Killing all of them makes the trophy unobtainable on that save. Trevor is also needed.",
+          "sourceUrl": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/"
+        },
+        "summary": "As Trevor, take a bail bond job from Maude and deliver the target alive.",
+        "steps": ["Visit Maude (orange marker in the north-east desert) as Trevor.", "Track down a bail target and subdue them without killing them.", "Deliver them to Maude alive."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Wanted: Alive or Alive", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/31-wanted-alive-or-alive" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 31, "groupKey": "default", "name": "Los Santos Customs", "grade": "bronze",
+      "description": "Fully mod a vehicle.", "communityEarnedRate": 15.5,
+      "guidance": {
+        "category": "side_activity", "gameMode": "single_player", "character": "any",
+        "difficulty": 1, "minutes": 20, "confidence": "high",
+        "estimateBasis": "Editorial: buy a cheap car and one shop visit",
+        "onlineRequired": false, "multiplayer": "none", "phase": "story-opening",
+        "prereqs": [{ "type": "story", "checkpoint": "father_son" }],
+        "summary": "Apply every upgrade to one vehicle at Los Santos Customs. A cheap car keeps the cost down (PowerPyx suggests the Weeny Issi).",
+        "steps": ["After Father/Son, buy a cheap car online (in-game website).", "Apply every upgrade category at Los Santos Customs.", "Drive out of the shop: the trophy unlocks when you leave."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Los Santos Customs", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/32-los-santos-customs" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 32, "groupKey": "default", "name": "Close Shave", "grade": "bronze",
+      "description": "Complete all Under the Bridge and Knife Flight challenges.", "communityEarnedRate": 0.2,
+      "guidance": {
+        "category": "collectible", "gameMode": "single_player", "character": "any",
+        "difficulty": 5, "minutes": 300, "confidence": "low",
+        "estimateBasis": "Editorial: 65 precision flights; Knife Flights take retries. Scaled by challenges remaining",
+        "onlineRequired": false, "multiplayer": "none", "phase": "collectibles",
+        "counter": { "key": "under_the_bridge", "target": 50 },
+        "related": [13],
+        "summary": "Fly under all 50 bridges (Under the Bridge) and complete all 15 Knife Flights (flying sideways between buildings).",
+        "steps": ["Get a stable plane; helicopters can be used where noted on maps.", "Work through all 50 Under the Bridge locations.", "Complete the 15 Knife Flights, saving between attempts.", "Track both counts in Progress."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Close Shave", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/33-close-shave" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 33, "groupKey": "default", "name": "Off the Plane", "grade": "bronze",
+      "description": "GTA Online: Complete the Introduction.", "communityEarnedRate": 65.3,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 1, "minutes": 30, "confidence": "high",
+        "estimateBasis": "Editorial: GTA Online tutorial",
+        "onlineRequired": true, "multiplayer": "none", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }],
+        "summary": "Finish the GTA Online introduction. It unlocks when you arrive at your first property after the tutorial.",
+        "steps": ["Create a GTA Online character.", "Play through the introduction until you reach your first home."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Off the Plane", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/34-off-the-plane" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 34, "groupKey": "default", "name": "Three-Bit Gangster", "grade": "bronze",
+      "description": "GTA Online: Reach Rank 25.", "communityEarnedRate": 32.1,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 510, "confidence": "low",
+        "estimateBasis": "127,100 RP (PowerPyx) at ~15,000 RP/hour; scaled by your current rank",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "counter": { "key": "online_rank", "target": 25 },
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [35, 36],
+        "summary": "Reach Rank 25 in GTA Online (127,100 RP).",
+        "steps": ["Play Jobs and missions; team Jobs pay extra RP.", "Combine with other online trophies (Survival, Gang Attacks, store hold-ups) as you rank up."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Three-Bit Gangster", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/35-three-bit-gangster" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 35, "groupKey": "default", "name": "Making Moves", "grade": "silver",
+      "description": "GTA Online: Reach Rank 50.", "communityEarnedRate": 23.5,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 3, "minutes": 1800, "confidence": "low",
+        "estimateBasis": "448,000 RP (PowerPyx) at ~15,000 RP/hour; scaled by your current rank",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "counter": { "key": "online_rank", "target": 50 },
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [34, 36],
+        "summary": "Reach Rank 50 in GTA Online (448,000 RP).",
+        "steps": ["Keep playing RP-rich content; Hard difficulty pays more RP.", "Rank 50 also lets you help friends with Full Refund."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Making Moves", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/36-making-moves" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 36, "groupKey": "default", "name": "Above the Law", "grade": "gold",
+      "description": "GTA Online: Reach Rank 100.", "communityEarnedRate": 14.0,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 5, "minutes": 6330, "confidence": "low",
+        "estimateBasis": "1,583,380 RP (PowerPyx) at ~15,000 RP/hour; PowerPyx calls it a 100+ hour grind",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "counter": { "key": "online_rank", "target": 100 },
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [34, 35],
+        "summary": "Reach Rank 100 in GTA Online (1,583,380 RP). The longest part of the Platinum.",
+        "steps": ["Prefer team missions (+20% RP) and Hard difficulty (x1.5 RP).", "Playing with Crew members on your team adds a further bonus.", "Watch for weekly double-RP events."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Above the Law", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/37-above-the-law" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 37, "groupKey": "default", "name": "Numero Uno", "grade": "bronze",
+      "description": "GTA Online: Obtain first place in all competitive game types.", "communityEarnedRate": 1.2,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 6, "minutes": 360, "confidence": "low",
+        "estimateBasis": "Editorial: 15 modes, most boostable with one partner; Rally and Team Deathmatch need four players",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 18 }],
+        "summary": "Win first place in 15 competitive modes: Deathmatch, Team Deathmatch, Air Race, Land Race (standard, GTA and Rally), Sea Race, Arm Wrestling, Darts, Golf, Tennis, Shooting Range, Parachuting, Gang Attack and Survival. Rank 18 is the earliest it can unlock.",
+        "steps": ["Set up invite-only sessions with a partner for the 1v1-friendly modes.", "Organise four players for Rally and Team Deathmatch.", "Gang Attack and Survival can be done solo once unlocked (Rank 18 / 15)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Numero Uno", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/38-numero-uno" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 38, "groupKey": "default", "name": "The Midnight Club", "grade": "bronze",
+      "description": "GTA Online: Use custom vehicles to win 5 races.", "communityEarnedRate": 7.7,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 3, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: five short races with one partner",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "summary": "Win five races using your own custom vehicle. It will not unlock in a solo race, so you need at least one other player.",
+        "steps": ["Host a Land Race with custom vehicles enabled.", "Pick a short race and replay it with your partner.", "Win five times."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: The Midnight Club", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/39-the-midnight-club" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 39, "groupKey": "default", "name": "Unnatural Selection", "grade": "bronze",
+      "description": "GTA Online: Complete all 10 waves of a Survival.", "communityEarnedRate": 6.7,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 4, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: one Survival run, possibly a retry",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 15 }],
+        "related": [48, 37],
+        "summary": "Survive all 10 waves of a Survival. Survival unlocks at Rank 15 (or earlier if a higher-ranked player invites you).",
+        "steps": ["Stock up on armour and ammo.", "Pick a Survival map with a defensible spot (PowerPyx describes one on the Boneyard map).", "Calling a Merryweather backup helicopter during the run also unlocks Dialling Digits (Rank 20)."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Unnatural Selection", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/40-unnatural-selection" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 40, "groupKey": "default", "name": "Backseat Driver", "grade": "bronze",
+      "description": "GTA Online: Direct a driver to 1st place as co-driver in Rally Mode.", "communityEarnedRate": 1.3,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 3, "minutes": 30, "confidence": "medium",
+        "estimateBasis": "Editorial: one Rally race once four players are gathered",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [37],
+        "summary": "Win a Rally race as the co-driver: your driver must finish first. Rally needs four players.",
+        "steps": ["Gather four players in a private session.", "Join as co-driver and call directions (headset or D-pad).", "Make sure your driver finishes first. Can be combined with Numero Uno's Rally requirement."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Backseat Driver", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/41-backseat-driver" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 41, "groupKey": "default", "name": "Run Like The Wind", "grade": "bronze",
+      "description": "GTA Online: Survive with a Bounty on your head.", "communityEarnedRate": 25.0,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: 24 in-game hours is roughly 48 real minutes",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 10 }],
+        "summary": "Survive 24 in-game hours (about 48 real minutes) with a bounty on you. Needs Rank 10.",
+        "steps": ["Have a partner place a bounty on you in a private session (or wait for an NPC revenge bounty).", "Keep moving: activities and sleeping pause the timer, and idling can kick you.", "Survive until the bounty expires."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Run Like The Wind", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/42-run-like-the-wind" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 42, "groupKey": "default", "name": "Clean Sweep", "grade": "bronze",
+      "description": "GTA Online: Finish a Gang Attack without dying and kill at least 10 enemies.", "communityEarnedRate": 16.3,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 3, "minutes": 20, "confidence": "medium",
+        "estimateBasis": "Editorial: one Gang Attack, retry if you die",
+        "onlineRequired": true, "multiplayer": "none", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 18 }],
+        "related": [37],
+        "summary": "Complete a Gang Attack without dying and kill at least 10 enemies. Unlocks at Rank 18; best done solo so nobody steals kills.",
+        "steps": ["Stock up on armour and ammo.", "Start a Gang Attack (red circle on the minimap) in a solo session.", "Kill at least 10 enemies without dying."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Clean Sweep", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/43-clean-sweep" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 43, "groupKey": "default", "name": "Decorated", "grade": "silver",
+      "description": "GTA Online: Earn 30 Platinum Awards.", "communityEarnedRate": 19.5,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 5, "minutes": 600, "confidence": "low",
+        "estimateBasis": "Editorial: many awards come naturally while ranking up; scaled by awards remaining",
+        "onlineRequired": true, "multiplayer": "optional", "phase": "gta-online",
+        "counter": { "key": "platinum_awards", "target": 30 },
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "summary": "Earn 30 Platinum-tier Awards in GTA Online. Many can be done solo or with one partner.",
+        "steps": ["Check the Awards menu for the closest Platinum tiers.", "Focus on mode wins and weapon/mini-game awards that PowerPyx lists as easiest.", "Enter your count in Progress."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Decorated", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/44-decorated" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 44, "groupKey": "default", "name": "Stick Up Kid", "grade": "bronze",
+      "description": "GTA Online: Hold up all 20 Stores.", "communityEarnedRate": 5.4,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: 20 quick robberies; scaled by stores remaining",
+        "onlineRequired": true, "multiplayer": "none", "phase": "gta-online",
+        "counter": { "key": "stores_robbed", "target": 20 },
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [45],
+        "summary": "Hold up all 20 stores in GTA Online. Robbed stores stay marked, so it can be spread across sessions.",
+        "steps": ["Play in a solo session to avoid interference.", "Aim at the cashier to start each robbery.", "Work through all 20 stores. The first hold-up also counts for Enjoy Your Stay."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Stick Up Kid", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/45-stick-up-kid" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 45, "groupKey": "default", "name": "Enjoy Your Stay", "grade": "bronze",
+      "description": "GTA Online: Participate in everything Los Santos has to offer.", "communityEarnedRate": 1.0,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 3, "minutes": 90, "confidence": "medium",
+        "estimateBasis": "Editorial: ten quick activities; three need a partner",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "related": [44, 37],
+        "summary": "Do ten activities in GTA Online: a strip club private dance, buy clothes, a haircut, a torso tattoo, arm wrestling, a store hold-up, darts, golf, tennis and a Shooting Range challenge. Arm wrestling, darts and tennis need a partner.",
+        "steps": ["Do the solo activities first (clothes, haircut, torso tattoo, private dance, golf, Shooting Range, a store hold-up).", "With a partner, play arm wrestling, darts and tennis (one round, leg or set each).", "If it does not unlock, PowerPyx suggests trying a different torso tattoo."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Enjoy Your Stay", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/46-enjoy-your-stay" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 46, "groupKey": "default", "name": "Crew Cut", "grade": "bronze",
+      "description": "GTA Online: Complete a Job as a member of a Crew.", "communityEarnedRate": 14.0,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 30, "confidence": "medium",
+        "estimateBasis": "Editorial: one Job once in a Crew",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "crew_joined" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "summary": "Finish any Job together with another member of your Crew. Crews are managed through Rockstar Games Social Club.",
+        "steps": ["Link your PSN account to Rockstar Games Social Club.", "Create or join a Crew with at least one other player.", "Complete any Job with them."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Crew Cut", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/47-crew-cut" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 47, "groupKey": "default", "name": "Full Refund", "grade": "bronze",
+      "description": "GTA Online: Kill the thief that mugged you.", "communityEarnedRate": 11.5,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 20, "confidence": "medium",
+        "estimateBasis": "Editorial: one mugging with a partner",
+        "onlineRequired": true, "multiplayer": "required", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }, { "type": "trophy", "psnTrophyId": 33 }],
+        "summary": "Kill the mugger who robbed you. A partner of Rank 50+ has to send the mugger ($1,000) while you carry cash.",
+        "steps": ["Carry some cash.", "Have a Rank 50+ partner call a mugger on you in a private session.", "Chase the mugger down and kill them."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Full Refund", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/48-full-refund" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 48, "groupKey": "default", "name": "Dialling Digits", "grade": "bronze",
+      "description": "GTA Online: Call for a Backup Helicopter for the first time.", "communityEarnedRate": 12.4,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 1, "minutes": 10, "confidence": "high",
+        "estimateBasis": "Editorial: one phone call ($5,000)",
+        "onlineRequired": true, "multiplayer": "none", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 20 }],
+        "related": [39],
+        "summary": "At Rank 20, call Merryweather from your phone and request a Backup Helicopter ($5,000). The trophy unlocks when it arrives.",
+        "steps": ["Reach Rank 20 and carry $5,000.", "Phone > Contacts > Merryweather > Backup Helicopter.", "Wait for the helicopter to arrive."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: Dialling Digits", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/49-dialling-digits" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 49, "groupKey": "default", "name": "American Dream", "grade": "bronze",
+      "description": "GTA Online: Own an Apartment, Garage and an Insured Vehicle", "communityEarnedRate": 64.7,
+      "guidance": {
+        "category": "online", "gameMode": "online", "character": null,
+        "difficulty": 2, "minutes": 60, "confidence": "medium",
+        "estimateBasis": "Editorial: mostly earning the $80,000",
+        "onlineRequired": true, "multiplayer": "none", "phase": "gta-online",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "counterAtLeast", "counter": "online_rank", "value": 5 }],
+        "summary": "Own an apartment, a garage and an insured vehicle at the same time. Needs Rank 5 and about $80,000.",
+        "steps": ["Reach Rank 5 and save about $80,000.", "Buy an apartment through the Dynasty 8 website on your phone (PowerPyx notes 'For Sale' signs don't count).", "The tutorial car is already insured."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: American Dream", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/50-american-dream" }
+        ]
+      }
+    },
+    {
+      "psnTrophyId": 50, "groupKey": "default", "name": "A New Perspective", "grade": "bronze",
+      "description": "You played GTA V in first person mode for 15 hours.", "communityEarnedRate": 7.4,
+      "guidance": {
+        "category": "misc", "gameMode": "single_player", "character": "any",
+        "difficulty": 1, "minutes": 900, "confidence": "high",
+        "estimateBasis": "15 hours of first-person play; earned passively alongside other work",
+        "passive": true,
+        "onlineRequired": false, "multiplayer": "none", "phase": "side-activities",
+        "summary": "Spend 15 hours in first-person view. Switch the camera with the Touchpad and leave it on while you do other things.",
+        "steps": ["Switch to first-person (Touchpad) and keep it on.", "Let it accumulate while collecting, doing activities or replaying missions."],
+        "guides": [
+          { "label": "PowerPyx trophy guide & roadmap", "url": "https://www.powerpyx.com/gta-v-trophy-guide-roadmap/" },
+          { "label": "PSNProfiles: A New Perspective", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/51-a-new-perspective" }
+        ]
+      }
+    },
+
+    { "psnTrophyId": 51, "groupKey": "heists", "name": "Be Prepared", "grade": "bronze", "description": "GTA Online: You completed a Heist Setup mission.", "communityEarnedRate": 31.1,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 2, "minutes": 30, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete any Heist setup mission. Heists need other players.", "steps": ["Join or host a Heist and finish one of its setup missions."],
+        "guides": [{ "label": "PSNProfiles: Be Prepared", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/52-be-prepared" }] } },
+    { "psnTrophyId": 52, "groupKey": "heists", "name": "In the Name of Science", "grade": "bronze", "description": "GTA Online: You completed The Humane Labs Raid and Series A Funding as Heist Leader or Crew.", "communityEarnedRate": 6.2,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 4, "minutes": 240, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete The Humane Labs Raid and Series A Funding Heists (as leader or crew).", "steps": ["Join a full crew for each Heist's setups and finale."],
+        "guides": [{ "label": "PSNProfiles: In the Name of Science", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/53-in-the-name-of-science" }] } },
+    { "psnTrophyId": 53, "groupKey": "heists", "name": "Dead Presidents", "grade": "bronze", "description": "GTA Online: You completed The Fleeca Job and The Pacific Standard Job as Heist Leader or Crew.", "communityEarnedRate": 7.5,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 4, "minutes": 240, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete The Fleeca Job and The Pacific Standard Job (as leader or crew).", "steps": ["The Fleeca Job needs two players; Pacific Standard needs four."],
+        "guides": [{ "label": "PSNProfiles: Dead Presidents", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/54-dead-presidents" }] } },
+    { "psnTrophyId": 54, "groupKey": "heists", "name": "Parole Day", "grade": "bronze", "description": "GTA Online: You completed The Prison Break as Heist Leader or Crew.", "communityEarnedRate": 12.6,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 4, "minutes": 150, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete The Prison Break Heist (as leader or crew).", "steps": ["Join a four-player crew for the setups and finale."],
+        "guides": [{ "label": "PSNProfiles: Parole Day", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/55-parole-day" }] } },
+    { "psnTrophyId": 55, "groupKey": "heists", "name": "Shot Caller", "grade": "bronze", "description": "GTA Online: Invest your hard earned cash to set up a Heist.", "communityEarnedRate": 15.2,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 2, "minutes": 30, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "optional", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }],
+        "summary": "Pay to set up a Heist as Heist Leader (needs a high-end apartment).", "steps": ["Own a high-end apartment with a planning room.", "Start a Heist as leader and pay its setup cost."],
+        "guides": [{ "label": "PSNProfiles: Shot Caller", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/56-shot-caller" }] } },
+    { "psnTrophyId": 56, "groupKey": "heists", "name": "Four Way", "grade": "bronze", "description": "GTA Online: As Heist Leader set the finale cut as 25% across all players.", "communityEarnedRate": 3.1,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 3, "minutes": 120, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "As Heist Leader of a four-player Heist, set every player's finale cut to 25%.", "steps": ["Lead a four-player Heist.", "Set all four cuts to 25% before the finale."],
+        "guides": [{ "label": "PSNProfiles: Four Way", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/57-four-way" }] } },
+    { "psnTrophyId": 57, "groupKey": "heists", "name": "Live a Little", "grade": "silver", "description": "GTA Online: Spend a total of $8,000,000 purchasing vehicles included as part of The Heists Update.", "communityEarnedRate": 1.9,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 5, "minutes": 1200, "confidence": "low", "estimateBasis": "Editorial: mainly earning the money", "onlineRequired": true, "multiplayer": "optional", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }],
+        "summary": "Spend $8,000,000 in total on vehicles added by The Heists Update.", "steps": ["Earn the money through Heists and other jobs.", "Buy vehicles from the Heists Update until the total reaches $8M."],
+        "guides": [{ "label": "PSNProfiles: Live a Little", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/58-live-a-little" }] } },
+    { "psnTrophyId": 58, "groupKey": "heists", "name": "Can't Touch This", "grade": "bronze", "description": "GTA Online: Complete a Heist finale without taking any damage.", "communityEarnedRate": 11.9,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 4, "minutes": 60, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Finish a Heist finale without taking any damage.", "steps": ["Pick a role with little combat (for example a getaway driver) in a finale."],
+        "guides": [{ "label": "PSNProfiles: Can't Touch This", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/59-cant-touch-this" }] } },
+    { "psnTrophyId": 59, "groupKey": "heists", "name": "Mastermind", "grade": "silver", "description": "GTA Online: Earn 25 platinum medals across Heist Setups and Finales.", "communityEarnedRate": 2.9,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 6, "minutes": 900, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Earn 25 platinum ratings across Heist setups and finales.", "steps": ["Play Heists with a coordinated crew to maximise ratings."],
+        "guides": [{ "label": "PSNProfiles: Mastermind", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/60-mastermind" }] } },
+
+    { "psnTrophyId": 60, "groupKey": "rockstar-editor", "name": "Vinewood Visionary", "grade": "bronze", "description": "Create and export a video using the Rockstar Editor or enter Director Mode 5 times.", "communityEarnedRate": 3.8,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 1, "minutes": 15, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Export one Rockstar Editor video, or enter Director Mode five times.", "steps": ["Enter Director Mode five times from the Rockstar Editor menu."],
+        "guides": [{ "label": "PSNProfiles: Vinewood Visionary", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/61-vinewood-visionary" }] } },
+    { "psnTrophyId": 61, "groupKey": "rockstar-editor", "name": "Majestic", "grade": "silver", "description": "Create and export 10 videos using the Rockstar Editor or enter Director Mode 10 times.", "communityEarnedRate": 1.9,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 1, "minutes": 20, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc", "related": [60],
+        "summary": "Export ten Rockstar Editor videos, or enter Director Mode ten times.", "steps": ["Enter Director Mode ten times."],
+        "guides": [{ "label": "PSNProfiles: Majestic", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/62-majestic" }] } },
+    { "psnTrophyId": 62, "groupKey": "rockstar-editor", "name": "Humans of Los Santos", "grade": "bronze", "description": "Unlock all Special Characters and enter Director Mode as an actor from this category.", "communityEarnedRate": 0.1,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 5, "minutes": 600, "confidence": "low", "estimateBasis": "Editorial: unlocks are spread across the story and side content", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Unlock every Special Character actor (unlocked through story and side content), then use one in Director Mode.", "steps": ["Check the guide for which encounters unlock each Special Character.", "Enter Director Mode as one of them."],
+        "guides": [{ "label": "PSNProfiles: Humans of Los Santos", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/63-humans-of-los-santos" }] } },
+    { "psnTrophyId": 63, "groupKey": "rockstar-editor", "name": "First Time Director", "grade": "bronze", "description": "Enter Director Mode for the first time as an unlocked actor.", "communityEarnedRate": 7.5,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 1, "minutes": 5, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Enter Director Mode as any unlocked actor.", "steps": ["Open the Rockstar Editor and choose Director Mode."],
+        "guides": [{ "label": "PSNProfiles: First Time Director", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/64-first-time-director" }] } },
+    { "psnTrophyId": 64, "groupKey": "rockstar-editor", "name": "Animal Lover", "grade": "bronze", "description": "Enter Director Mode as an unlocked animal actor for the first time.", "communityEarnedRate": 0.8,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 3, "minutes": 60, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Unlock any animal actor and enter Director Mode as it.", "steps": ["Unlock an animal actor (see guide).", "Enter Director Mode as that animal."],
+        "guides": [{ "label": "PSNProfiles: Animal Lover", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/65-animal-lover" }] } },
+    { "psnTrophyId": 65, "groupKey": "rockstar-editor", "name": "Ensemble Piece", "grade": "silver", "description": "Unlock all Story Characters and enter Director Mode as an actor from this category.", "communityEarnedRate": 0.2,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 5, "minutes": 600, "confidence": "low", "estimateBasis": "Editorial: tied to story progress", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Unlock every Story Character actor, then use one in Director Mode.", "steps": ["Story Characters unlock as you meet them in the story and side content.", "Enter Director Mode as one of them once all are unlocked."],
+        "guides": [{ "label": "PSNProfiles: Ensemble Piece", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/66-ensemble-piece" }] } },
+    { "psnTrophyId": 66, "groupKey": "rockstar-editor", "name": "Cult Movie", "grade": "bronze", "description": "Enter Director Mode as Cris Formage.", "communityEarnedRate": 0.1,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 4, "minutes": 480, "confidence": "low", "estimateBasis": "Editorial: Cris Formage is unlocked through the Epsilon questline", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc", "related": [23],
+        "summary": "Unlock Cris Formage as an actor and enter Director Mode as him. He is tied to the Epsilon storyline.", "steps": ["Progress Michael's Epsilon questline (see Kifflom!).", "Enter Director Mode as Cris Formage."],
+        "guides": [{ "label": "PSNProfiles: Cult Movie", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/67-cult-movie" }] } },
+    { "psnTrophyId": 67, "groupKey": "rockstar-editor", "name": "Location Scout", "grade": "bronze", "description": "Visit all Locations in Director Mode.", "communityEarnedRate": 0.2,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 2, "minutes": 45, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc",
+        "summary": "Visit every location in Director Mode's location list.", "steps": ["In Director Mode, open the locations menu and travel to each one."],
+        "guides": [{ "label": "PSNProfiles: Location Scout", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/68-location-scout" }] } },
+    { "psnTrophyId": 68, "groupKey": "rockstar-editor", "name": "Method Actor", "grade": "bronze", "description": "Enter Director Mode using any of your own GTA Online characters.", "communityEarnedRate": 6.5,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 1, "minutes": 10, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "none", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }],
+        "summary": "Enter Director Mode as one of your own GTA Online characters.", "steps": ["Create a GTA Online character.", "Enter Director Mode and pick that character."],
+        "guides": [{ "label": "PSNProfiles: Method Actor", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/69-method-actor" }] } },
+    { "psnTrophyId": 69, "groupKey": "rockstar-editor", "name": "Cryptozoologist", "grade": "silver", "description": "You unlocked all animals for use in Director Mode... or did you?", "communityEarnedRate": 0.1,
+      "guidance": { "category": "creator", "gameMode": "creator", "difficulty": 6, "minutes": 480, "confidence": "low", "estimateBasis": "Editorial: involves hidden collectibles", "onlineRequired": false, "multiplayer": "none", "phase": "optional-dlc", "related": [64],
+        "summary": "Unlock every animal actor for Director Mode, including a hidden one. Follow a dedicated guide.", "steps": ["Use a guide for the hidden collectibles that unlock animal actors.", "Unlock every animal, including the secret one."],
+        "guides": [{ "label": "PSNProfiles: Cryptozoologist", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/70-cryptozoologist" }] } },
+
+    { "psnTrophyId": 70, "groupKey": "doomsday", "name": "Getting Started", "grade": "bronze", "description": "GTA Online: Set up The Doomsday Heist.", "communityEarnedRate": 11.7,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 2, "minutes": 60, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "optional", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }],
+        "summary": "Set up The Doomsday Heist (needs a Facility property).", "steps": ["Buy a Facility.", "Start The Doomsday Heist from the planning screen."],
+        "guides": [{ "label": "PSNProfiles: Getting Started", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/71-getting-started" }] } },
+    { "psnTrophyId": 71, "groupKey": "doomsday", "name": "The Data Breaches", "grade": "bronze", "description": "GTA Online: You completed Act I of The Doomsday Heist as Leader or Crew.", "communityEarnedRate": 13.2,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 3, "minutes": 180, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete Act I of The Doomsday Heist.", "steps": ["Play Act I's preps, setups and finale with at least one partner."],
+        "guides": [{ "label": "PSNProfiles: The Data Breaches", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/72-the-data-breaches" }] } },
+    { "psnTrophyId": 72, "groupKey": "doomsday", "name": "The Bogdan Problem", "grade": "silver", "description": "GTA Online: You completed Act II of The Doomsday Heist as Leader or Crew.", "communityEarnedRate": 14.3,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 4, "minutes": 240, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete Act II of The Doomsday Heist.", "steps": ["Play Act II with at least one partner."],
+        "guides": [{ "label": "PSNProfiles: The Bogdan Problem", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/73-the-bogdan-problem" }] } },
+    { "psnTrophyId": 73, "groupKey": "doomsday", "name": "The Doomsday Scenario", "grade": "silver", "description": "GTA Online: You completed Act III of The Doomsday Heist as Leader or Crew.", "communityEarnedRate": 8.3,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 5, "minutes": 300, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete Act III of The Doomsday Heist.", "steps": ["Play Act III with at least one partner."],
+        "guides": [{ "label": "PSNProfiles: The Doomsday Scenario", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/74-the-doomsday-scenario" }] } },
+    { "psnTrophyId": 74, "groupKey": "doomsday", "name": "A World Worth Saving", "grade": "silver", "description": "GTA Online: You completed The Doomsday Heist as Leader or Crew.", "communityEarnedRate": 7.0,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 5, "minutes": 60, "confidence": "low", "estimateBasis": "Editorial: unlocks with the final act", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc", "related": [73],
+        "summary": "Complete all three acts of The Doomsday Heist.", "steps": ["Finish Acts I, II and III."],
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "guides": [{ "label": "PSNProfiles: A World Worth Saving", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/75-a-world-worth-saving" }] } },
+    { "psnTrophyId": 75, "groupKey": "doomsday", "name": "Orbital Obliteration", "grade": "bronze", "description": "GTA Online: Kill another player with the Orbital Cannon.", "communityEarnedRate": 3.5,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 3, "minutes": 60, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Kill another player with the Orbital Cannon (a Facility upgrade).", "steps": ["Buy the Orbital Cannon upgrade for your Facility.", "Target a willing partner in a session."],
+        "guides": [{ "label": "PSNProfiles: Orbital Obliteration", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/76-orbital-obliteration" }] } },
+    { "psnTrophyId": 76, "groupKey": "doomsday", "name": "Elitist", "grade": "silver", "description": "GTA Online: Complete all 3 Elite Challenges in The Doomsday Heist.", "communityEarnedRate": 0.1,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 8, "minutes": 600, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete the Elite Challenge in all three Doomsday Heist finales.", "steps": ["Coordinate with a reliable crew; each finale has its own Elite conditions."],
+        "guides": [{ "label": "PSNProfiles: Elitist", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/77-elitist" }] } },
+    { "psnTrophyId": 77, "groupKey": "doomsday", "name": "Masterminds", "grade": "silver", "description": "GTA Online: Complete all 3 Criminal Mastermind challenges in The Doomsday Heist.", "communityEarnedRate": 0.1,
+      "guidance": { "category": "online", "gameMode": "online", "difficulty": 9, "minutes": 1200, "confidence": "low", "estimateBasis": "Editorial", "onlineRequired": true, "multiplayer": "required", "phase": "optional-dlc",
+        "prereqs": [{ "type": "flag", "flag": "online_access" }, { "type": "flag", "flag": "coop_partner" }],
+        "summary": "Complete all three Doomsday Heist acts in order with the same crew without anyone dying (Criminal Mastermind).", "steps": ["Commit to a fixed crew for all three acts.", "No player may die and acts must be done in order."],
+        "guides": [{ "label": "PSNProfiles: Masterminds", "url": "https://psnprofiles.com/trophy/15720-grand-theft-auto-v/78-masterminds" }] } }
+  ]
+}

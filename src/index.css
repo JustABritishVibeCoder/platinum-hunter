@@ -1,0 +1,296 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ tokens */
+:root {
+  --bg: #0b0a0f;
+  --bg-elev: #0f0e14;
+  --surface: #14121a;
+  --surface-2: #1a1822;
+  --surface-3: #211e2b;
+  --border: #24212e;
+  --border-strong: #332f41;
+  --text: #f3f2f7;
+  --text-2: #a7a3b6;
+  --text-3: #6d6880;
+
+  --accent: #8b5cf6;
+  --accent-2: #b49dfb;
+  --accent-ink: #ffffff;
+  --accent-soft: rgb(139 92 246 / 0.12);
+  --accent-line: rgb(139 92 246 / 0.35);
+
+  --ok: #5ccf96;
+  --ok-soft: rgb(92 207 150 / 0.12);
+  --warn: #f0b14a;
+  --warn-soft: rgb(240 177 74 / 0.12);
+  --danger: #f06d6d;
+  --danger-soft: rgb(240 109 109 / 0.12);
+  --info: #7cb4f5;
+  --info-soft: rgb(124 180 245 / 0.12);
+
+  --plat: #cfd9ea;
+  --gold: #e3b54b;
+  --silver: #b5bac6;
+  --bronze: #c6885a;
+
+  --radius: 6px;
+  color-scheme: dark;
+}
+
+html[data-theme="graphite"] {
+  --bg: #131317;
+  --bg-elev: #17171c;
+  --surface: #1c1c22;
+  --surface-2: #222229;
+  --surface-3: #2a2a33;
+  --border: #2d2d36;
+  --border-strong: #3b3b47;
+}
+
+html[data-theme="oled"] {
+  --bg: #000000;
+  --bg-elev: #050507;
+  --surface: #0b0b0e;
+  --surface-2: #111116;
+  --surface-3: #18181f;
+  --border: #1d1c24;
+  --border-strong: #2a2833;
+}
+
+html[data-accent="indigo"] {
+  --accent: #6d72f3;
+  --accent-2: #a5a8fb;
+  --accent-soft: rgb(109 114 243 / 0.12);
+  --accent-line: rgb(109 114 243 / 0.35);
+}
+html[data-accent="orchid"] {
+  --accent: #c264e8;
+  --accent-2: #dfa6f5;
+  --accent-soft: rgb(194 100 232 / 0.12);
+  --accent-line: rgb(194 100 232 / 0.35);
+}
+html[data-accent="ice"] {
+  --accent: #5fb4e6;
+  --accent-2: #a6d6f3;
+  --accent-ink: #06121b;
+  --accent-soft: rgb(95 180 230 / 0.12);
+  --accent-line: rgb(95 180 230 / 0.35);
+}
+
+/* PlayStation 5-inspired theme: deep navy, PS blue, softer tiles. Placed after the
+   accent rules with higher specificity so it defines its own accent. */
+html[data-theme="ps5"],
+html[data-theme="ps5"][data-accent] {
+  --bg: #04060d;
+  --bg-elev: rgb(8 13 28 / 0.92);
+  --surface: rgb(13 21 40 / 0.86);
+  --surface-2: #142039;
+  --surface-3: #1b2a49;
+  --border: rgb(120 150 210 / 0.14);
+  --border-strong: rgb(140 170 230 / 0.26);
+  --text: #f5f8ff;
+  --text-2: #aab8d6;
+  --text-3: #6f7fa3;
+  --accent: #2f7ff7;
+  --accent-2: #8bb8ff;
+  --accent-ink: #ffffff;
+  --accent-soft: rgb(47 127 247 / 0.14);
+  --accent-line: rgb(47 127 247 / 0.42);
+  --radius: 10px;
+}
+html[data-theme="ps5"] body {
+  background:
+    radial-gradient(1100px 620px at 78% -12%, rgb(47 127 247 / 0.2), transparent 62%),
+    radial-gradient(900px 520px at -10% 110%, rgb(90 60 200 / 0.12), transparent 60%),
+    linear-gradient(180deg, #081430 0%, #04060d 72%);
+  background-attachment: fixed;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elev: var(--bg-elev);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-fg: var(--text);
+  --color-fg-2: var(--text-2);
+  --color-fg-3: var(--text-3);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-line: var(--accent-line);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --color-plat: var(--plat);
+  --color-gold: var(--gold);
+  --color-silver: var(--silver);
+  --color-bronze: var(--bronze);
+  --font-sans: "Inter Variable", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", "Inter Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "Cascadia Mono", monospace;
+  --radius-ph: var(--radius);
+}
+
+/* ------------------------------------------------------------------ base */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01";
+  overflow: hidden;
+  user-select: none;
+}
+
+input,
+textarea,
+[data-selectable] {
+  user-select: text;
+}
+
+::selection {
+  background: var(--accent-line);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Scrollbars: thin and quiet */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Small-caps label used across the UI */
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.hairline {
+  border-color: var(--border);
+}
+
+/* Reticle corner marks: Platinum Hunter's signature framing for focal content */
+.reticle {
+  position: relative;
+}
+.reticle::before,
+.reticle::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--accent);
+  border-style: solid;
+  pointer-events: none;
+  opacity: 0.85;
+}
+.reticle::before {
+  top: -1px;
+  left: -1px;
+  border-width: 2px 0 0 2px;
+  border-top-left-radius: var(--radius);
+}
+.reticle::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 2px 2px 0;
+  border-bottom-right-radius: var(--radius);
+}
+
+/* Motion: restrained, and disabled for users who prefer less */
+.fade-in {
+  animation: fade-in 160ms ease-out both;
+}
+.slide-in-right {
+  animation: slide-in-right 200ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.pop-in {
+  animation: pop-in 160ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+}
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(16px);
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+.live-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 4px;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
